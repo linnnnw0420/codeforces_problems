@@ -1,0 +1,21 @@
+{
+    "CompetitiveHeader": {
+        "scope": "cpp",
+        "prefix": "cfhead",
+        "description": "Competitive programming header used across new C++ files",
+        "body": [
+            "#include<bits/stdc++.h>",
+            "using namespace std;",
+            "#define ll long long",
+            "",
+            "int main() {",
+            "    ios::sync_with_stdio(false);",
+            "    cin.tie(nullptr);",
+            "",
+            "    $0",
+            "",
+            "    return 0;",
+            "}"
+        ]
+    }
+}

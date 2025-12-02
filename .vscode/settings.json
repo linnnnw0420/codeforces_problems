@@ -1,0 +1,211 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "vector": "cpp"
+    },
+    // Make Code Runner compile+run C++ with C++23
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && /usr/bin/clang++ -std=c++23 -I \"$workspaceRoot\" -Wall -g $fileName -o $fileNameWithoutExt && ( ./$fileNameWithoutExt; ret=$?; rm -rf \"$fileNameWithoutExt\" \"$fileNameWithoutExt.dSYM\" \"$fileNameWithoutExt.bin\" \"$fileNameWithoutExt.txt\"; exit $ret )"
+    },
+    // Vim parity with ~/.vimrc snippet
+    "editor.lineNumbers": "relative",
+    "search.smartCase": true,
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.incsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "Q"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "<left>"
+            ],
+            "after": [
+                ":",
+                "e",
+                "c",
+                "h",
+                "o",
+                "e",
+                " ",
+                "\"",
+                "U",
+                "s",
+                "e",
+                " ",
+                "h",
+                "\"",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<right>"
+            ],
+            "after": [
+                ":",
+                "e",
+                "c",
+                "h",
+                "o",
+                "e",
+                " ",
+                "\"",
+                "U",
+                "s",
+                "e",
+                " ",
+                "l",
+                "\"",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<up>"
+            ],
+            "after": [
+                ":",
+                "e",
+                "c",
+                "h",
+                "o",
+                "e",
+                " ",
+                "\"",
+                "U",
+                "s",
+                "e",
+                " ",
+                "k",
+                "\"",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<down>"
+            ],
+            "after": [
+                ":",
+                "e",
+                "c",
+                "h",
+                "o",
+                "e",
+                " ",
+                "\"",
+                "U",
+                "s",
+                "e",
+                " ",
+                "j",
+                "\"",
+                "<CR>"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<left>"
+            ],
+            "after": [
+                "<Esc>",
+                ":",
+                "e",
+                "c",
+                "h",
+                "o",
+                "e",
+                " ",
+                "\"",
+                "U",
+                "s",
+                "e",
+                " ",
+                "h",
+                "\"",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<right>"
+            ],
+            "after": [
+                "<Esc>",
+                ":",
+                "e",
+                "c",
+                "h",
+                "o",
+                "e",
+                " ",
+                "\"",
+                "U",
+                "s",
+                "e",
+                " ",
+                "l",
+                "\"",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<up>"
+            ],
+            "after": [
+                "<Esc>",
+                ":",
+                "e",
+                "c",
+                "h",
+                "o",
+                "e",
+                " ",
+                "\"",
+                "U",
+                "s",
+                "e",
+                " ",
+                "k",
+                "\"",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<down>"
+            ],
+            "after": [
+                "<Esc>",
+                ":",
+                "e",
+                "c",
+                "h",
+                "o",
+                "e",
+                " ",
+                "\"",
+                "U",
+                "s",
+                "e",
+                " ",
+                "j",
+                "\"",
+                "<CR>"
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.preferredDarkColorTheme": "Visual Studio 2017 Dark - C++"
+}

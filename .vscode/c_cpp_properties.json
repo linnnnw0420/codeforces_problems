@@ -1,0 +1,49 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/bits",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang++",
+            "compilerArgs": [
+                "-I${workspaceFolder}"
+            ],
+            "cppStandard": "c++23",
+            "cStandard": "c23",
+            "intelliSenseMode": "macos-clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/bits",
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "running",
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/bits",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerArgs": [
+                "-I${workspaceFolder}"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}/bits",
+                    "${workspaceFolder}/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
