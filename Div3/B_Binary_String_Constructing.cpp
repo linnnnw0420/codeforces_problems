@@ -8,10 +8,47 @@ int main() {
 
     int a, b, x;
     cin >> a >> b >> x;
-    for (int i = 0; i < a + b; ++i) {
+    bool state = a > b; 
+    x--;
+    string ans;
+    int index = 0;
+    while (x > 0){
         if (x > 0){
-            
+            if (state) {
+                ans.push_back('0');
+                state = !state;
+                a--;
+                index++;
+            }
+            else {
+                ans.push_back('1');
+                state = !state;
+                b--;
+                index++;
+            }
+            if (index > 0) {
+                if (ans[index] != ans[index - 1]){
+                    x--;
+                }
+            }
         }
     }
+    if (state) {
+        for (int i = 0; i < a; i++) {
+            ans.push_back('0');
+        }
+        for (int i = 0; i < b; i++) {
+            ans.push_back('1');
+        }
+    }
+    else {
+        for (int i = 0; i < b; i++) {
+            ans.push_back('1');
+        }
+        for (int i = 0; i < a; i++) {
+            ans.push_back('0');
+        }
+    }
+    cout << ans;
     return 0;
 }
