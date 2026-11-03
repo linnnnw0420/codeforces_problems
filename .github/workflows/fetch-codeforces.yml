@@ -1,6 +1,11 @@
 name: Fetch Codeforces profile
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fetch-codeforces.yml'
+      - 'scripts/fetch_codeforces.py'
   schedule:
     - cron: '17 13 * * *'
 
