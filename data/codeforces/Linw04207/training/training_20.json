@@ -1,0 +1,341 @@
+{
+  "handle": "Linw04207",
+  "source": "Codeforces official API problemset.problems + user.status",
+  "generated_at_utc": "2026-11-03T13:44:32.409090+00:00",
+  "seed": 20261103,
+  "submission_count_filtered": 424,
+  "unique_attempted_filtered": 240,
+  "problem_catalog_size": 11488,
+  "focus_counts": {
+    "implementation": 1,
+    "math": 1,
+    "sortings": 1,
+    "binary search": 1,
+    "greedy": 1,
+    "strings": 1,
+    "geometry": 1,
+    "two pointers": 1,
+    "dp": 2,
+    "constructive algorithms": 1,
+    "number theory": 1,
+    "bitmasks": 1,
+    "data structures": 1,
+    "dfs and similar": 1,
+    "graphs": 1,
+    "trees": 1,
+    "combinatorics": 1,
+    "shortest paths": 1,
+    "dsu": 1
+  },
+  "rating_counts": {
+    "1100": 3,
+    "1200": 4,
+    "1300": 6,
+    "1400": 4,
+    "1500": 3
+  },
+  "problems": [
+    {
+      "number": 1,
+      "contestId": 1413,
+      "index": "B",
+      "name": "A New Technique",
+      "rating": 1100,
+      "focus": "implementation",
+      "tags": [
+        "implementation"
+      ],
+      "solvedCount": 12127,
+      "url": "https://codeforces.com/problemset/problem/1413/B",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 2,
+      "contestId": 1593,
+      "index": "D1",
+      "name": "All are Same",
+      "rating": 1100,
+      "focus": "math",
+      "tags": [
+        "math",
+        "number theory"
+      ],
+      "solvedCount": 22457,
+      "url": "https://codeforces.com/problemset/problem/1593/D1",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 3,
+      "contestId": 1722,
+      "index": "D",
+      "name": "Line",
+      "rating": 1100,
+      "focus": "sortings",
+      "tags": [
+        "greedy",
+        "sortings"
+      ],
+      "solvedCount": 27298,
+      "url": "https://codeforces.com/problemset/problem/1722/D",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 4,
+      "contestId": 1613,
+      "index": "C",
+      "name": "Poisoned Dagger",
+      "rating": 1200,
+      "focus": "binary search",
+      "tags": [
+        "binary search"
+      ],
+      "solvedCount": 32007,
+      "url": "https://codeforces.com/problemset/problem/1613/C",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 5,
+      "contestId": 2259,
+      "index": "D",
+      "name": "MEX Multiset",
+      "rating": 1200,
+      "focus": "greedy",
+      "tags": [
+        "constructive algorithms",
+        "greedy"
+      ],
+      "solvedCount": 14247,
+      "url": "https://codeforces.com/problemset/problem/2259/D",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 6,
+      "contestId": 2149,
+      "index": "D",
+      "name": "A and B",
+      "rating": 1200,
+      "focus": "strings",
+      "tags": [
+        "strings"
+      ],
+      "solvedCount": 21013,
+      "url": "https://codeforces.com/problemset/problem/2149/D",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 7,
+      "contestId": 1886,
+      "index": "B",
+      "name": "Fear of the Dark",
+      "rating": 1200,
+      "focus": "geometry",
+      "tags": [
+        "binary search",
+        "geometry",
+        "math"
+      ],
+      "solvedCount": 18463,
+      "url": "https://codeforces.com/problemset/problem/1886/B",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 8,
+      "contestId": 1776,
+      "index": "H",
+      "name": "Beppa and SwerChat",
+      "rating": 1300,
+      "focus": "two pointers",
+      "tags": [
+        "two pointers"
+      ],
+      "solvedCount": 7748,
+      "url": "https://codeforces.com/problemset/problem/1776/H",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 9,
+      "contestId": 1900,
+      "index": "C",
+      "name": "Anji's Binary Tree",
+      "rating": 1300,
+      "focus": "dp",
+      "tags": [
+        "dfs and similar",
+        "dp",
+        "trees"
+      ],
+      "solvedCount": 15688,
+      "url": "https://codeforces.com/problemset/problem/1900/C",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 10,
+      "contestId": 1775,
+      "index": "B",
+      "name": "Gardener and the Array",
+      "rating": 1300,
+      "focus": "constructive algorithms",
+      "tags": [
+        "bitmasks",
+        "constructive algorithms"
+      ],
+      "solvedCount": 22964,
+      "url": "https://codeforces.com/problemset/problem/1775/B",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 11,
+      "contestId": 1931,
+      "index": "D",
+      "name": "Divisible Pairs",
+      "rating": 1300,
+      "focus": "number theory",
+      "tags": [
+        "combinatorics",
+        "math",
+        "number theory"
+      ],
+      "solvedCount": 34610,
+      "url": "https://codeforces.com/problemset/problem/1931/D",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 12,
+      "contestId": 2160,
+      "index": "C",
+      "name": "Reverse XOR",
+      "rating": 1300,
+      "focus": "bitmasks",
+      "tags": [
+        "bitmasks"
+      ],
+      "solvedCount": 16250,
+      "url": "https://codeforces.com/problemset/problem/2160/C",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 13,
+      "contestId": 1698,
+      "index": "C",
+      "name": "3SUM Closure",
+      "rating": 1300,
+      "focus": "data structures",
+      "tags": [
+        "brute force",
+        "data structures"
+      ],
+      "solvedCount": 20079,
+      "url": "https://codeforces.com/problemset/problem/1698/C",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 14,
+      "contestId": 1167,
+      "index": "C",
+      "name": "News Distribution",
+      "rating": 1400,
+      "focus": "dfs and similar",
+      "tags": [
+        "dfs and similar",
+        "dsu",
+        "graphs"
+      ],
+      "solvedCount": 28864,
+      "url": "https://codeforces.com/problemset/problem/1167/C",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 15,
+      "contestId": 2172,
+      "index": "M",
+      "name": "Maximum Distance To Port",
+      "rating": 1400,
+      "focus": "graphs",
+      "tags": [
+        "graphs",
+        "shortest paths"
+      ],
+      "solvedCount": 6919,
+      "url": "https://codeforces.com/problemset/problem/2172/M",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 16,
+      "contestId": 1143,
+      "index": "C",
+      "name": "Queen",
+      "rating": 1400,
+      "focus": "trees",
+      "tags": [
+        "dfs and similar",
+        "trees"
+      ],
+      "solvedCount": 19465,
+      "url": "https://codeforces.com/problemset/problem/1143/C",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 17,
+      "contestId": 1974,
+      "index": "C",
+      "name": "Beautiful Triple Pairs",
+      "rating": 1400,
+      "focus": "combinatorics",
+      "tags": [
+        "combinatorics",
+        "data structures"
+      ],
+      "solvedCount": 19733,
+      "url": "https://codeforces.com/problemset/problem/1974/C",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 18,
+      "contestId": 1418,
+      "index": "C",
+      "name": "Mortal Kombat Tower",
+      "rating": 1500,
+      "focus": "shortest paths",
+      "tags": [
+        "dp",
+        "graphs",
+        "greedy",
+        "shortest paths"
+      ],
+      "solvedCount": 31248,
+      "url": "https://codeforces.com/problemset/problem/1418/C",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 19,
+      "contestId": 1575,
+      "index": "J",
+      "name": "Jeopardy of Dropped Balls",
+      "rating": 1500,
+      "focus": "dsu",
+      "tags": [
+        "binary search",
+        "brute force",
+        "dsu",
+        "implementation"
+      ],
+      "solvedCount": 4355,
+      "url": "https://codeforces.com/problemset/problem/1575/J",
+      "status": "unattempted_as_of_snapshot"
+    },
+    {
+      "number": 20,
+      "contestId": 1881,
+      "index": "E",
+      "name": "Block Sequence",
+      "rating": 1500,
+      "focus": "dp",
+      "tags": [
+        "dp"
+      ],
+      "solvedCount": 26928,
+      "url": "https://codeforces.com/problemset/problem/1881/E",
+      "status": "unattempted_as_of_snapshot"
+    }
+  ]
+}
