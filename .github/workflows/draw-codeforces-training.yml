@@ -1,0 +1,41 @@
+name: Draw diverse Codeforces training 20
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/draw-codeforces-training.yml'
+      - 'scripts/select_codeforces_training.py'
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Select unseen problems from official problemset
+        run: |
+          python scripts/select_codeforces_training.py \
+            --submissions data/codeforces/Linw04207/submissions.json \
+            --out data/codeforces/Linw04207/training
+      - name: Upload selection artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: codeforces-balanced-training-20
+          path: data/codeforces/Linw04207/training/
+          retention-days: 90
+      - name: Commit selected problems
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/codeforces/Linw04207/training/
+          if ! git diff --cached --quiet; then
+            git commit -m "Save balanced Codeforces training set"
+            git push
+          fi
