@@ -2,6 +2,78 @@
   "status": "OK",
   "result": [
     {
+      "id": 397669501,
+      "contestId": 1398,
+      "creationTimeSeconds": 1794011924,
+      "relativeTimeSeconds": 2147483647,
+      "problem": {
+        "contestId": 1398,
+        "index": "C",
+        "name": "Good Subarrays",
+        "type": "PROGRAMMING",
+        "rating": 1600,
+        "tags": [
+          "data structures",
+          "dp",
+          "math"
+        ]
+      },
+      "author": {
+        "contestId": 1398,
+        "participantId": 250003426,
+        "members": [
+          {
+            "handle": "Linw04207"
+          }
+        ],
+        "participantType": "PRACTICE",
+        "ghost": false,
+        "startTimeSeconds": 1597415700
+      },
+      "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+      "verdict": "OK",
+      "testset": "TESTS",
+      "passedTestCount": 38,
+      "timeConsumedMillis": 46,
+      "memoryConsumedBytes": 1536000
+    },
+    {
+      "id": 397669449,
+      "contestId": 1398,
+      "creationTimeSeconds": 1794011820,
+      "relativeTimeSeconds": 2147483647,
+      "problem": {
+        "contestId": 1398,
+        "index": "C",
+        "name": "Good Subarrays",
+        "type": "PROGRAMMING",
+        "rating": 1600,
+        "tags": [
+          "data structures",
+          "dp",
+          "math"
+        ]
+      },
+      "author": {
+        "contestId": 1398,
+        "participantId": 250003426,
+        "members": [
+          {
+            "handle": "Linw04207"
+          }
+        ],
+        "participantType": "PRACTICE",
+        "ghost": false,
+        "startTimeSeconds": 1597415700
+      },
+      "programmingLanguage": "C++23 (GCC 14-64, msys2)",
+      "verdict": "WRONG_ANSWER",
+      "testset": "TESTS",
+      "passedTestCount": 2,
+      "timeConsumedMillis": 31,
+      "memoryConsumedBytes": 0
+    },
+    {
       "id": 391831953,
       "contestId": 706,
       "creationTimeSeconds": 1790216763,
